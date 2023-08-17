@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.cdnfonts.com/css/cera-compact-pro');
+
+body {
+  font-family: 'Cera Pro', sans-serif;
+
+}
+
+.link {
+  color: rgb(1, 1, 1);
+  border: none;
+  text-decoration: none;
+}
+
+.link.active {
+  border-bottom: 3px solid #46A358;
+  color: #46A358;
+  padding-bottom: 5px;
+}
+
+.menyu {
+  color: aliceblue;
+}
+
+.carusel {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #46A358;
+  border-radius: 6px;
+  gap: 10px;
+  width: 100px;
+  height: 35px;
+  border: 0;
+
+}
+.btns:hover{
+background-color: #21d445;
+transition: 0.2s;
+}
+.btns:active{
+  background-color: #27f80f;
+  }
+  
+
+.range {
+  margin-left: 28px;
+}
+
+
+:where(.css-dev-only-do-not-override-12jzuas).ant-slider .ant-slider-track {
+  background-color: #46A358;
+}
+
+:where(.css-dev-only-do-not-override-12jzuas).ant-slider .ant-slider-handle::after {
+  box-shadow: 0 0 0 2px #46A358;
+}
+
+
+.detal {
+ color: rgb(255, 255, 255);
+ display: flex;
+ text-decoration: none;
+}
+.detal.active{
+  border-right: 5px solid #46A358;  
+
+}
+.act.active{
+  color: #010101;
+  font-weight: 700;
+
+}
+.act{
+  color: rgb(97, 91, 91);
+  border: none;
+  text-decoration: none;
+}
+.pro{
+  margin-right: 30px;
+}
+/* .search{
+  
+} */
